@@ -3,10 +3,9 @@ header {
 	height: 24px;
 }
 
-
 h1 {
 	font-weight: bold;
-	color text-rendering: red;
+	color: red;
 }
 
 /* tag h2 with italic font */
