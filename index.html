@@ -1,21 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Портфолио</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
 </head>
 
 <body>
-	<h1>Hello World</h1>
-	<h2>Hi!</h2>
-	<h3>How are you?</h3>
-	<h4>I am a Programmer</h4>
-	<h5>I am Web Developer</h5>
+	<!-- Шапка -->
+	<header class="header">
+		<h1>Портфолио</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">Обо мне</a></li>
+				<li><a href="#skills">Мои навыки</a></li>
+				<li><a href="#petProjects">Мои пет-проекты</a></li>
+				<li><a href="#diary">Дневник программиста</a></li>
+				<li><a href="#contact">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
 
+	<!-- Основной контент -->
+	<main>
+		<!-- О себе -->
+		<section id="about">
+			<h2>Обо мне</h2>
+			<img src="avatar.jpg" alt="Аватар">
+			<p>Я молодой и амбициозный web-разработчик, специализирующийся на создании современных и интерактивных
+				веб-приложений.</p>
+			<p>Люблю изучать новые технологии и всегда стараюсь быть в курсе последних тенденций в мире программирования.</p>
+		</section>
 
+		<!-- Мои навыки -->
+		<section id="skills">
+			<h2>Мои навыки</h2>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>React</li>
+				<li>Vue.js</li>
+				<li>Node.js</li>
+				<li>Express.js</li>
+				<li>MongoDB</li>
+				<li>MySQL</li>
+			</ul>
+		</section>
 
-</body>
+		<!-- Пет-проекты -->
+		<section id="petProjects">
+			<h2>Мои пет-проекты</h2>
+			<article>
+				<h3>Проект 1</h3>
+				<img src="petProject1.jpg" alt="Фото пет-проекта 1">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
+					dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+					Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+				<a href="https://example.com/petProject1">Узнать больше</a>
+			</article>
+			<article>
+				<h3>Проект 2</h3>
+				<img src="petProject2.jpg" alt="Фото пет-проекта 2">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
+					dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+					Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+				<a href="https://example.com/petProject2">Узнать больше</a>
+			</article>
+			<article>
+				<h3>Проект 3</h3>
+				<img src="petProject3.jpg" alt="Фото пет-проекта 3">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
+					dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+					Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+				<a href="https://example.com/petProject3">Узнать больше</a>
+			</article>
+		</section>
 
-</html>
+		<!-- Дневник программиста -->
+		<section id="diary">
+			<h2>Дневник программиста</h2>
+			<article>
+				<h3>Запись 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
+					dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+					Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+				<a href="https://example.com/diaryEntry1">Читать далее</a>
+			</article>
+			<article>
+				<h3>Запись 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
+					dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+					Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+				<a href="https://example.com/diaryEntry2">Читать далее</a>
+			</article>
+			<article>
+				<h3>Запись 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
+					dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+					Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+				<a href="https://example.com/diaryEntry3">Читать далее</a>
+			</article>
+		</section>
+
+		<!-- Проекты -->
+		<section id="projects">
+			<h2>Проекты</h2>
+			<article>
+				<h3>Проект 1</h3>
+				<img src="project1.jpg" alt="Фото проекта 1">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
+					dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+					Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+				<a href="https://example.com/project1">Узнать больше</a>
+			</article>
+			<article>
+				<h3>Проект 2</h3>
+				<img src="project2.jpg" alt="Фото проекта 2">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
+					dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+					Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+				<a href="https://example.com/project2">Узнать больше</a>
+			</article>
+			<article>
+				<h3>Проект 3</h3>
+				<img src="project3.jpg" alt="Фото

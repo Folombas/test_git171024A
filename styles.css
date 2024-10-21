@@ -1,0 +1,146 @@
+/* Общие стили */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #282c34;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 2rem;
+}
+
+header nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+header nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+header nav a {
+	color: inherit;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+header nav a:hover {
+	color: #ccc;
+}
+
+main section {
+	padding: 40px;
+	border-bottom: 1px solid #ddd;
+}
+
+main section:last-child {
+	border: none;
+}
+
+main section h2 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+}
+
+main article {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+main img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+main p {
+	margin-bottom: 0;
+}
+
+footer address {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+footer address strong {
+	margin-right: 20px;
+}
+
+footer address a {
+	color: inherit;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+footer address a:hover {
+	color: #ccc;
+}
+
+/* Стилизация для pet-projects.html */
+#petProjects .header h1 {
+	color: #f77e1b;
+}
+
+#petProjects article {
+	background-color: #fafafa;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#petProjects article img {
+	float: left;
+	margin-right: 20px;
+}
+
+#petProjects article h3 {
+	margin-top: 0;
+}
+
+/* Стилизация для diary.html */
+#diary .header h1 {
+	color: #1eb3fa;
+}
+
+#diary article {
+	background-color: #f2faff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#diary article h3 {
+	margin-top: 0;
+}
+
+#diary article p {
+	font-size: 0.9rem;
+}
+
+#diary article a {
+	color: #1eb3fa;
+}
+
+#diary article a:hover {
+	color: #009ad2;
+}
