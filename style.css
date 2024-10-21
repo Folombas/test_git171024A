@@ -3,9 +3,10 @@ header {
 	height: 24px;
 }
 
-/* tag h1 with bold font */
+
 h1 {
 	font-weight: bold;
+	color text-rendering: red;
 }
 
 /* tag h2 with italic font */
@@ -24,4 +25,9 @@ h3 {
 h4 {
 	font-weight: bold;
 	font-style: italic;
+}
+
+/* фон страницы светло-розовый */
+body {
+	background-color: pink;
 }
